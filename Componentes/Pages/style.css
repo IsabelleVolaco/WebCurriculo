@@ -1,0 +1,30 @@
+
+@font-face { /*linkando a fonte baixada do Google */
+    font-family: "OpenSans";
+    src: url(/Assets/OpenSans-Regular.ttf); /* tstf é usado para verificar erro de fone não aparecer*/
+}
+
+@font-face { 
+    font-family: "OpenSans-Condensed";
+    src: url(OpenSans_Condensed-Regular.ttf); /* tstf é usado para verificar erro de fone não aparecer*/
+}
+
+@font-face { 
+    font-family: "OpenSans-Italic";
+    src: url(OpenSans-Italic.ttf); /* tstf é usado para verificar erro de fone não aparecer*/
+}
+
+
+body {
+    background-image:linear-gradient(to right, #571C56, #1A5678, #201F41);
+}
+
+
+
+header p{
+    color: palevioletred;
+    font-size: larger;
+    font-family: 'OpenSans-Italic';
+}
+
+
