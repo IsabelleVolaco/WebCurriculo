@@ -1,17 +1,17 @@
 
 @font-face { /*linkando a fonte baixada do Google */
     font-family: "OpenSans";
-    src: url(/Assets/OpenSans-Regular.ttf); /* tstf é usado para verificar erro de fone não aparecer*/
+    src: url(../Assets/OpenSans-Regular.ttf); /* tstf é usado para verificar erro de fone não aparecer*/
 }
 
 @font-face { 
     font-family: "OpenSans-Condensed";
-    src: url(OpenSans_Condensed-Regular.ttf); /* tstf é usado para verificar erro de fone não aparecer*/
+    src: url(../Assets/OpenSans_Condensed-Regular.ttf); /* tstf é usado para verificar erro de fone não aparecer*/
 }
 
 @font-face { 
     font-family: "OpenSans-Italic";
-    src: url(OpenSans-Italic.ttf); /* tstf é usado para verificar erro de fone não aparecer*/
+    src: url(../Assets/OpenSans-Italic.ttf); /* tstf é usado para verificar erro de fone não aparecer*/
 }
 
 
@@ -21,10 +21,34 @@ body {
 
 
 
-header p{
-    color: palevioletred;
-    font-size: larger;
-    font-family: 'OpenSans-Italic';
+
+nav a{
+    color: inherit;
+    text-decoration: none !important; 
+    cursor: pointer;
 }
 
+#header-container{
+    color: #EFF0EB;
+    font-size: larger;
+    font-family: 'OpenSans';
+}
 
+header{
+    border:#1A5678;
+    border-top: 1cm;
+    background-image: red;
+    /*background: #212122;*/
+}
+
+/*
+nav{
+    color: palevioletred;
+    font-size: larger;
+    font-family: 'OpenSans' !important;
+}
+*/
+.container{
+    font-size: larger;
+    font-family: 'OpenSans-Condensed';
+}

@@ -1,6 +1,6 @@
 // Função para gerar a header
 function gerarHeader() {
-    var header = '<nav style="background: grey;">';
+    var header = '<nav style="background: #212122;">';
     header += '<ul>';
     header += '<li><a href="../Conhecimentos/conhecimentos.html">Conhecimentos</a></li>';
     header += '<li><a href="../Servicos/servicos.html">Serviços</a></li>';
