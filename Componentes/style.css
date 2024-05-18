@@ -22,6 +22,11 @@ body {
 
 nav ul{
     margin: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
 }
 
 nav a{
