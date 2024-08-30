@@ -20,6 +20,8 @@ body {
     margin: 0;
 }
 
+/*HEADER*/
+
 nav ul{
     margin: 0;
     list-style: none;
@@ -27,6 +29,9 @@ nav ul{
 
 nav ul li{
     display: inline-block;
+    color: #EFF0EB;
+    font-size: larger;
+    font-family: 'OpenSans';
 }
 
 nav a{
@@ -35,10 +40,11 @@ nav a{
     cursor: pointer;
 }
 
+nav {
+    padding-top: 5%;
+}
 #header-container{
-    color: #EFF0EB;
-    font-size: larger;
-    font-family: 'OpenSans';
+
 }
 
 /*
