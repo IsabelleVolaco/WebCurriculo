@@ -3,13 +3,18 @@ function gerarHeader() {
     let header = `
         <nav class="container-fluid" style="background: #212122;">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-
+                <p>IsabelleVolaco</p>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="../Conhecimentos/conhecimentos.html" class="nav-link text-secondary">Conhecimentos</a></li>
+                    <li><a href="../Conhecimentos/conhecimentos.html" class="nav-link">Conhecimentos</a></li>
                     <li><a href="../Servicos/servicos.html" class="nav-link">Serviços</a></li>
                     <li><a href="../Profissional/profissional.html" class="nav-link">Profissional</a></li>
                     <li><a href="../Cursos/cursos.html" class="nav-link">Cursos</a></li>
                 </ul>
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                </div>
             </div>
         </nav>
      `;

@@ -22,13 +22,8 @@ body {
 
 /*HEADER*/
 
-nav ul{
-
-   
-}
-
-nav ul li{
-    color: #EFF0EB;
+nav ul li a{
+    color: #EFF0EB !important;
     font-size: medium;
     font-family: 'OpenSans';
 }
@@ -39,24 +34,11 @@ nav a{
     cursor: pointer;
 }
 
-nav {
-    
-}
-
 #header-container{
 
 }
 
-/*
-nav{
-    color: palevioletred;
-    font-size: larger;
-    font-family: 'OpenSans' !important;
-}
-*/
-
 .container{
     font-size: larger;
     font-family: 'OpenSans-Condensed';
-    
 }
