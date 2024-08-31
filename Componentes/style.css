@@ -23,14 +23,13 @@ body {
 /*HEADER*/
 
 nav ul{
-    margin: 0;
-    list-style: none;
+
+   
 }
 
 nav ul li{
-    display: inline-block;
     color: #EFF0EB;
-    font-size: larger;
+    font-size: medium;
     font-family: 'OpenSans';
 }
 
@@ -43,6 +42,7 @@ nav a{
 nav {
     
 }
+
 #header-container{
 
 }
