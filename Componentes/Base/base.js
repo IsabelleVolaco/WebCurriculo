@@ -1,13 +1,21 @@
 // Função para gerar o header
 function gerarHeader() {
-    let header = '<nav style="background: #212122;">';
-    header += '<ul>';
-    header += '<li><a href="../Conhecimentos/conhecimentos.html">Conhecimentos</a></li>';
-    header += '<li><a href="../Servicos/servicos.html">Serviços</a></li>';
-    header += '<li><a href="../Profissional/profissional.html">Profissional</a></li>';
-    header += '<li><a href="../Cursos/cursos.html">Cursos</a></li>';
-    header += '</ul>';
-    header += '</nav>';
+    let header = `
+        <nav class="container-fluid" style="background: #212122;">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="../Conhecimentos/conhecimentos.html" class="nav-link text-secondary">Conhecimentos</a></li>
+                    <li><a href="../Servicos/servicos.html" class="nav-link">Serviços</a></li>
+                    <li><a href="../Profissional/profissional.html" class="nav-link">Profissional</a></li>
+                    <li><a href="../Cursos/cursos.html" class="nav-link">Cursos</a></li>
+                </ul>
+            </div>
+        </nav>
+     `;
 
     // Inserir a header no elemento com o id "header-container"
     document.getElementById('header-container').innerHTML = header;
@@ -17,7 +25,7 @@ function gerarHeader() {
 function carregarBootstrap() {
     let head = document.head;
     
-    // Inserir o link do CSS do Bootstrap
+    // Link CSS do Bootstrap
     let linkBootstrapCSS = document.createElement('link');
     linkBootstrapCSS.rel = 'stylesheet';
     linkBootstrapCSS.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css';
@@ -25,7 +33,7 @@ function carregarBootstrap() {
     linkBootstrapCSS.crossOrigin = 'anonymous';
     head.appendChild(linkBootstrapCSS);
     
-    // Inserir o script do JS do Bootstrap
+    // Script do JS do Bootstrap
     let scriptBootstrapJS = document.createElement('script');
     scriptBootstrapJS.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js';
     scriptBootstrapJS.integrity = 'sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM';

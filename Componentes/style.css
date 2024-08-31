@@ -41,7 +41,7 @@ nav a{
 }
 
 nav {
-    padding-top: 5%;
+    
 }
 #header-container{
 
@@ -58,4 +58,5 @@ nav{
 .container{
     font-size: larger;
     font-family: 'OpenSans-Condensed';
+    
 }
